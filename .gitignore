@@ -1,0 +1,70 @@
+# ==========================================
+# .NET / Visual Studio
+# ==========================================
+
+# Build
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# ==========================================
+# ASP.NET / Local configuration
+# ==========================================
+
+# User Secrets
+**/secrets.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Node / React
+# ==========================================
+
+# Dependencies
+**/node_modules/
+
+# Build
+**/dist/
+**/build/
+
+# Vite
+**/.vite/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# ==========================================
+# OS
+# ==========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==========================================
+# Test / Coverage
+# ==========================================
+
+**/TestResults/
+**/coverage/
